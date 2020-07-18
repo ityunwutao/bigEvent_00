@@ -56,7 +56,7 @@ $(function () {
                 layer.msg('登录成功')
                 // 本地存储
                 localStorage.setItem('token', res.token)
-                location.href = "/index.html";
+                location.href = "/home/index.html";
                 // location.href = "http://127.0.0.1:5500/home/index.html";
             }
         })
