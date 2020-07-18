@@ -31,7 +31,6 @@ function getUser() {
     })
 }
 
-
 function renderAvatar(user) {
     // 获取用户名称
     var name = user.nickname || user.username;
