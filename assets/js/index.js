@@ -1,4 +1,5 @@
 $(function () {
+    // 渲染用户信息及头像
     getUser()
 
     var layer = layui.layer;
@@ -18,7 +19,6 @@ function getUser() {
     $.ajax({
         method: 'get',
         url: '/my/userinfo',
-
         success: function (res) {
             if (res.status !== 0) {
                 layui.layer.msg('获取用户信息失败！')
