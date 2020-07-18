@@ -28,7 +28,6 @@ $(function () {
                 form.val('formUserInfo', res.data)
             }
         })
-        console.log(333)
     }
 
 
