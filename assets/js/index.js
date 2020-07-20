@@ -24,7 +24,7 @@ function getUser() {
                 layui.layer.msg('获取用户信息失败！')
                 return console.log(res);
             };
-            console.log(res);
+            // console.log(res);
             renderAvatar(res.data)
 
         }
@@ -34,7 +34,7 @@ function getUser() {
 function renderAvatar(user) {
     // 获取用户名称
     var name = user.nickname || user.username;
-    console.log(name)
+    // console.log(name)
     // 设置欢迎文本
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name)
     // 3. 按需渲染用户的头像

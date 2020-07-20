@@ -33,6 +33,7 @@ $(function () {
                 layer.msg('修改成功')
                 // 重置表单
                 $('.layui-form')[0].reset()
+                window.parent.location.href = '/home/login.html';
             }
         })
     })
